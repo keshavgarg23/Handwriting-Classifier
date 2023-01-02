@@ -20,7 +20,6 @@ This file creates a folder in the directory which contains the categorised pages
 </figure>
 <figure>
 <img src='./example_images/cropped.png' alt="Cropped Image" title="Original Image" width = "200"/>
-<br>
 <figcation>Cropped Image</figcation>
 </figure>
 
@@ -28,11 +27,7 @@ This file creates a folder in the directory which contains the categorised pages
 ### strip_and_box_cut.py
 It is a script which uses the opencv library of the python to segment extracted region into 113x113 boxes in an effort to make the model text independent. 
 <figure>
-<img src="./example_images/strips/A.jpg" width="64" />
-<img src="./example_images/strips/M.jpg" width="64" />
-<img src="./example_images/strips/O.jpg" width="64" />
-<img src="./example_images/strips/V.jpg" width="64" />
-<br>
+<img src="./example_images/strips/A.jpg" width="64" /> <img src="./example_images/strips/M.jpg" width="64" /> <img src="./example_images/strips/O.jpg" width="64" /> <img src="./example_images/strips/V.jpg" width="64" />
 <figcation>Extracted Boxes</figcaption>
 </figure>
 
